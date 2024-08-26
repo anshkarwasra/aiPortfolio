@@ -1,0 +1,14 @@
+.nav_flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 57vw;
+}
+
+.nav_flex .container{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+
+

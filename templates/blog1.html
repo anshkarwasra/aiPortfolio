@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename = '/src/output.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename = '/css/nav.css')}}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body class="bg-black">
+    <nav class="p-4 shadow-lg nav_flex bg-black nav_flex">
+        <!-- Logo -->
+        <div class=" text-lg font-semibold text-pink-200">
+          Placidux
+        </div>
+    
+        <div class="container">
+          <!-- Navigation Links -->
+          <ul class="flex space-x-8 text-sm font-semibold my-3">
+            <li><a href="/" class="hover:text-pink-400 text-white">Home</a></li>
+            <li><a href="/blog1" class="hover:text-pink-400 text-white">Blog</a></li>
+            <li><a href="/#service" class="hover:text-pink-400 text-white">Book Online</a></li>
+          
+          </ul>
+    
+          <!-- Search Bar -->
+          <div class="relative">
+            <input type="text" placeholder="Search..."
+              class="bg-black border-b-2 border-purple-500 text-white py-1 px-2 focus:outline-none">
+    
+          </div>
+        </div>
+      </nav>
+    <section class="text-gray-600 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                <div class=" w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+                    <h2 class="text-lg title-font text-gray-500 px-40 tracking-widest">Placidux</h2>
+                    <h1 class="text-white px-40 text-6xl title-font font-medium mb-10">
+                        Revolutionizing AI Services: Placidux Showcase Project
+                    </h1>
+                    <p class="text-white px-40 text-xl leading-relaxed mb-4">
+                        In a world where technological advancements are constantly evolving, AI services have become a
+                        vital tool for businesses looking to streamline operations and enhance efficiency. Placidux, a
+                        forward-thinking company, is at the forefront of revolutionizing AI services with their diverse
+                        range of offerings.</p>
+                    <img src="/static/semiconductors.png" width="750px" height="750px" class="px-10 py-10 mx-52">
+                    <p class="text-white px-40 text-xl leading-relaxed mb-4">Placidux's AI services span a wide array of
+                        fields, including image editing, heart rate monitoring, car price tracking, image summarization,
+                        image generation, and text generation. These services cater to various industries, providing
+                        solutions that are tailored to meet the specific needs of each client. Recently, Placidux
+                        embarked on a new project to develop a showcase website for a hackathon. <br> This project
+                        serves as a platform to highlight the innovative skills and capabilities of the company in the
+                        field of AI services. The goal of this showcase project is to not only demonstrate Placidux's
+                        expertise but also to showcase the practical applications of AI in different sectors. <br> As
+                        the first hackathon project for Placidux, the showcase website is a testament to the company's
+                        commitment to staying ahead of the curve in the ever-changing landscape of AI technology. By
+                        participating in hackathons and other collaborative events, Placidux continues to push the
+                        boundaries of what is possible with AI services, paving the way for transformative solutions in
+                        the future. In conclusion, Placidux's showcase project is an exciting glimpse into the future of
+                        AI services. <br>With a diverse range of offerings and a commitment to innovation, Placidux is
+                        set to lead the way in revolutionizing the industry. Stay tuned for more updates on this
+                        groundbreaking project and the impact it will have on the world of AI services.</p>
+                </div>
+                <hr style="color: aliceblue;">
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <span class="inline-block h-1 w-full rounded bg-gray-800 mt-6 mb-4"></span>
+
+
+    <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="text-5xl font-medium title-font mb-4 text-white tracking-widest">MORE BLOGS</h1>
+        
+      </div>
+  
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-80 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/2 lg:mb-0 mb-6 p-10">
+                    <div style="border: 1px solid rgba(255, 255, 255, 0.6);" class="h-full text-center">
+                        <a href="/blog2">
+                        <img style="width: 100%; opacity: 0.5;" alt="testimonial"
+                            class="w-80 h-40 mb-8 object-cover object-center inline-block border-2 border-gray-200 bg-gray-100"
+                            src="/static/semiconductors2.png">
+                        <p class="leading-relaxed px-5 py-10 text-white text-4xl">
+                            Cutting-Edge AI Solutions: Placidux Hackathon Project </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 lg:mb-0 mb-6 p-10">
+                    <div style="border: 1px solid rgba(255, 255, 255, 0.6);" class="h-full text-center">
+                        <a href="/blog3">
+                        <img alt="testimonial" style="width: 100%; opacity: 0.5;"
+                            class="w-80 h-40 mb-8 object-cover object-center inline-block border-2 border-gray-200 bg-gray-100"
+                            src="/static/semiconductors3.png">
+                        <p class="leading-relaxed px-5 py-10 text-white text-4xl">
+                            Exploring Innovative AI Capabilities: Placidux Hackathon Showcase</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
