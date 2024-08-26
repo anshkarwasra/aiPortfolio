@@ -17,7 +17,7 @@ import os
 # AIzaSyBkpmK74q4CeYIlUmSX7TXEd76S86ISExA
 # set API_KEY=<AIzaSyBkpmK74q4CeYIlUmSX7TXEd76S86ISExA>
 
-genai.configure(api_key='AIzaSyBkpmK74q4CeYIlUmSX7TXEd76S86ISExA')
+genai.configure(api_key='your api key here')
 
 model = genai.GenerativeModel('gemini-1.5-flash')
 
